@@ -1,0 +1,74 @@
+GIT - version control system
+
+SDLC- 3/4 months
+Agile - 1/2 week - development + no operations
+DevOps - 1 day
+
+cloud native native application = micro service + containerized + cloud + Devops culture (CICD)
+					|		|	    |
+				springboot	    Docker    AWS/Azure/GCP
+
+DevOps - developer(plan /code / build/ test) + operations(release/deploy/operate/monitor)
+
+	- quality + speed
+	- automation
+		
+GIT -> Jenkins(server) -> sonar cube (testing) -> artifactory(different version of code) - CI
+								|
+							cloud (VM, Cluster) -CD
+main tools?
+
+1. version control system
+2. build tools
+3. configuration management tool etc
+
+client meeting day1
+design code
+developer created code - v1.0
+
+client meeting day2
+design code
+developer created code - v2.0
+
+...
+
+
+1. version control system
+			- software configuration management/ source code management
+
+need - to store different versions
+
+Types - 1. centralized VCS - small startups
+	drawback -  cannot save code if network gone, wire, dealing with big data
+	ex - SVN, CVS, Perforce
+
+	2. distributed VCS- GIT, fossil etc
+	- each developer has its own workspace and local repository
+	- all versions are maintained in local repository
+	data is ready - push
+	from global to local	-pull
+
+
+GIT - created by Linux Torvalds
+	- commit code in local repository
+
+GIT BASH
+1. pwd
+2. cd c:/mycode
+3. git init myrepo  //local repo
+4. cd myrepo
+5. git clone link //clone repo  - pull
+6. //global repo    -push
+	- git status
+	- git add .
+	- git commit -m "class free code"
+	- git push origin master
+
+
+
+
+
+
+
+
+
