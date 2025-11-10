@@ -1,0 +1,157 @@
+AGILE 
+	- Introduction
+	- module 1 -			SOFTWARE DESIGN
+					3 approaches
+
+	(waterfall 
+	model)		1. SDLC 	2. AGILE 			3. DEVOPS using cloud native application
+			     |		     |			    			 |
+			3-4 months	for each module(sprint)			it takes hours
+		to complete minimal	follow all phase 
+		project	
+
+		5 modules together	it takes weeks
+
+		when complete 		SCRUM framework
+		design is ready 	team members/roles
+
+					1.product owner - decide client requirement, power to reject/ accept  - Mosco b/w 2
+					2.scrum master  \> wants sprint 4   -  standup meeting - everyday
+						manage 
+					3.developer  - decides time hours   JIRA (documentation)
+					4.tester	-----------  ^ story point
+
+					when requirements evolve
+
+					it is an iterative and incremental model (features addon) - process model
+
+
+
+AGILE VALUES    -    4 values, 12 principles	1. customer satisfaction 2. welcome changing 3. deliver work frequently
+
+		1. interactions
+		2. less documentation and design
+		3. customer collaboration
+		4. change plan
+
+
+UML sequence diagram/ interaction diagram
+		- it is created for each use case
+		- each sequence diagram has 2 flow  - basic flow - based on input/action get success
+						    - alternate flow - vice versa
+
+
+
+
+
+Day 2
+
+SCRUM terminology
+		- user story = get requirement from customer in this form ,  epic- collection of user stories
+											|
+					             product backlog    -   documented in file ex- excel
+							|
+						 prepared by product owner
+		- sprint/iteration = period of time to complete user stories
+					- min 2 week and max 4
+
+		- sprint planning meeting under scrum master
+		
+		- Sprint backlog - document- for each sprint- change in every standup meeting
+
+		- scrum meeting / standing meeting -by scrum master everyday 15 min
+						- what did you yesterday?, today?, impediments?
+
+		- sprint retrospective meeting - end of sprint one meeting
+						- what went wrong, what went right
+
+		- story point
+
+
+User Story: INVEST model
+		standard format - As a [user role],	
+				I want [goal or feature],
+				so that [benefit or reason].
+
+		INVEST principles - independent, negotiable, valuable, estimable, small, testable
+
+
+10 user stories-								acceptance criteria
+		as a admin,
+		i want to control users media stream,
+		so that the meeting goes good.
+
+		as a user,						Given i am in an active meeting
+		i want to get notifications when host attaches a file,  When the host attaches a file
+		so that i wouldn't miss any information.		Then i should receive a real-time 										notification in the meeting interface
+								 		
+		as a user,						Given i am a participant in the 	
+		i want to have access for sending messages in a chat,	meeting
+		so that the doubts get cleared.				When i open the chat panel
+									Then i should be able to type and send 										messages
+
+
+		as a host,						Given i am the host of the meeting
+		i want to share my screen with all participants,	When i click on the “Share Screen” 										option
+		so that i can present documents or slides effectively.	Then i should be able to select the 										entire screen or a specific window
+
+
+
+		as a host,						Given I am the host of the meeting
+		i want to record the meeting,				When I click on the Record button
+		so that absent participants can review it later.	Then the recording should start and an 										indicator should be visible to all 										participants
+
+		as a participant					Given I am a participant in the 										meeting
+		i want to raise a virtual hand				When I click on the Raise Hand”											option
+		so that i can ask questions without interrupting	Then an icon should appear next to my 			the speaker.						name in the participant list
+		
+
+		as a host,
+		i want to create breakout rooms,
+		so that participants can collaborate in smaller groups.
+
+		as a participant,
+		i want to download shared files during the meeting,
+		so that I have all the resources for later reference.
+
+		as a participant,
+		i want to blur my background or use a virtual background,
+		so that I can maintain privacy during the meeting.
+
+		as a host,
+		i want to see a list of participants who joined and left,
+		so that I can track attendance.
+		
+
+user story + Acceptance criteria    - format              - 1. Given/when/then 
+		   - product owner
+
+		ex- given[ that i am logged into my account]
+		    when [ i view my upcoming assignments]
+		    then [ i get remainder emails]
+
+key agile metrics
+		- 1. velocity - amt of work done in a single sprint (current team performance)
+		  2. Burndown chart -  ( task need to complete)
+
+
+challenge in software Maintenance
+
+needs
+1. correcting defects
+2. adapting to environment changes
+3. enhancing performance
+4. adding new features
+5. ensuring security
+6. legal/regulatory compliance
+
+category
+1. corrective
+2. adaptive
+3. perfective
+4. preventive
+
+
+
+
+
